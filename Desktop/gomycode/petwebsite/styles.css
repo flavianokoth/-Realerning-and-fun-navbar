@@ -1,0 +1,54 @@
+nav {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15); /* Add shadow for visible border */
+    list-style: none;
+    display: flex;
+    padding: 10px 20px;
+    margin: 0;
+    justify-content: center;
+    gap: 20px;
+
+    
+}
+
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+nav .button .btn {
+    background-color: black;
+    color: #fff;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+nav .button .btn:hover {
+    transform: scale(1.1);
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+
+}
+.hero .img {
+    width: 300px;
+    height: 500px;
+    max-width: 500px;
+    border-radius: 30px;
+}
