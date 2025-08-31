@@ -1,3 +1,23 @@
+body {
+    margin: 0px;
+    padding: 30px;
+    background-color: antiquewhite;
+}
+
+nav .logo {
+    margin-left: 60px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+
+}
+nav .logo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
 nav {
   display: flex;
   align-items: center;
@@ -24,8 +44,8 @@ nav ul li a {
 
 nav .button .btn {
   background-color: black;
-  color: #fff;
   padding: 5px 20px;
+  color: #fff;
   text-decoration: none;
   border-radius: 30px;
   margin-right: 40px;
@@ -40,29 +60,34 @@ nav .button .btn:hover {
   justify-content: space-between;
 }
 .hero .img {
-  width: 600px;
-  height: 400px;
+  width: 300px;
+  height: 450px;
   border-radius: 30px;
-  border-color: #fff;
-  margin-right: 40px;
+  border-color: #fff solid;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 20px;
 }
 .vocub {
-  padding-left: 20px;
-  margin-left: 40px;
+  padding: 30px;
+  margin-left: 60px;
+  margin: 20px;
 }
 .vocub h1 {
   font-size: 2cm;
-  font-weight: bold;
+  font-weight: bolder;
+  width: 60%;
 }
 .vocub .next-line {
-  display: block;
-  font-weight: normal;
-  margin-top: 3px;
+  font-weight: 100;
+  font-style: italic;
+  margin-left: 20px;
 }
 .vocub p {
-  font-weight: normal;
+  font-weight: 400;
   font-size: xx-large;
   display: block;
+  width: 85%;
 }
 .hero .btn {
   background-color: black;
@@ -71,4 +96,65 @@ nav .button .btn:hover {
   text-decoration: none;
   border-radius: 30px;
   margin-top: 5px;
+}
+ .services {
+    padding: 60px;
+ }
+.service-heading {
+    text-align: center;
+    width: 44%;
+    margin: auto;
+    font-weight: bold;
+    padding-top: 30px;
+}
+.service-heading h1 {
+    font-size: 1cm;
+} 
+.service-heading h2 {
+    font-size: 0.5cm;
+    font-weight: lighter;
+    margin: 10px;
+}
+.container-items {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    gap: 10px;
+    
+    
+}
+.service-items {
+    width: 350px;
+    height: 300px;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    text-align: start;
+  
+
+
+}
+.service-items h2 {
+    display: block;
+    text-align: left;
+    width: 250px;
+    margin-top: 0%;
+
+}
+.unbold {
+    font-style: italic;
+    font-weight: lighter;
+}
+.service-img {
+    width: 90%;
+    height: 40%;
+    border-radius: 70px;
+    object-fit: cover;
+    align-items: center;
+    padding: 20px;
+}
+.service-items p {
+
+    width: 80%;
 }
